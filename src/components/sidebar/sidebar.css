@@ -1,0 +1,17 @@
+.sidebar {
+  flex: 1;
+  height: 120vh;
+  background-color: #1f95ee;
+  position: sticky;
+  top: 50px;
+}
+.sidebarWrapper {
+  padding: 20px;
+  color: white;
+}
+.sidebarListItem {
+  padding: 12px 0px;
+}
+.sidebarMenu {
+  padding: 20px 0px;
+}
