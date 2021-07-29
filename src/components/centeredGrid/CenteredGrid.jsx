@@ -9,6 +9,7 @@ import PaperThree from '../paperThree/PaperThree';
 import PaperThreeB from '../paperThreeB/PaperThreeB';
 import PaperSix from '../paperSix/PaperSix';
 import { Build } from '@material-ui/icons';
+import PaperEight from '../paperEight/PaperEight';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -57,7 +58,9 @@ export default function CenteredGrid() {
                                 </Paper>
                             </Grid>
                         </Grid>
-                        <Paper className={classes.paper}>xs=8</Paper>
+                        <Paper className={classes.paper}>
+                            <PaperEight/>
+                        </Paper>
                     </Grid>
 
 
